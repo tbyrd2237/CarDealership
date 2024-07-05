@@ -43,5 +43,8 @@ public class Main {
         System.out.println("Get Vehicles by Mileage: " + myDealership.getVehiclesByMileage(100, 1000));
         System.out.println("Get Vehicles by Type: " + myDealership.getVehiclesByType("Sedan"));
         System.out.println("Get All Vehicles " + myDealership.getAllVehicles());
+
+        DealershipFileManager manager = new DealershipFileManager();
+        System.out.println("Get Dealership from File " + manager.getDealership());
     }
 }

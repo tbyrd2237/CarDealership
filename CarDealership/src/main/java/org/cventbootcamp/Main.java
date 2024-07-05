@@ -45,6 +45,10 @@ public class Main {
         System.out.println("Get All Vehicles " + myDealership.getAllVehicles());
 
         DealershipFileManager manager = new DealershipFileManager();
-        System.out.println("Get Dealership from File " + manager.getDealership());
+
+        UserInterface userInterface = new UserInterface();
+        System.out.println("Get All Vehicles " + userInterface);
+
+
     }
 }
